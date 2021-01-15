@@ -133,3 +133,9 @@ The vcenter-connector by OpenFaaS is an event connector built to consume events 
 Status: under active development, available re-packaged from VMware as ["VEBA"](https://github.com/vmware-samples/vcenter-event-broker-appliance).
 
 Link: [openfaas-vcenter-connector](https://github.com/openfaas-incubator/openfaas-vcenter-connector)
+
+### AMQP1.0 (third-party project)
+
+You can use AMQP1.0 to trigger functions. This has been tested to work RabbitMQ (with the amqp1.0 plugin enabled) and Azure Service Bus, but should work with other message queues that use the AMQP1.0 protocol.
+
+More information in the repository: [MrSimonEmms/openfaas-amqp1.0-connector](https://gitlab.com/MrSimonEmms/openfaas-amqp1.0-connector)
